@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16C262A61E808D8E00454E60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C262A51E808D8E00454E60 /* main.m */; };
+		16C262A91E808D8E00454E60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C262A81E808D8E00454E60 /* AppDelegate.m */; };
+		16C262AF1E808D8E00454E60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C262AD1E808D8E00454E60 /* Main.storyboard */; };
+		16C262B11E808D8E00454E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16C262B01E808D8E00454E60 /* Assets.xcassets */; };
+		16C262B41E808D8E00454E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C262B21E808D8E00454E60 /* LaunchScreen.storyboard */; };
+		16C262BD1E808DDE00454E60 /* ClothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C262BC1E808DDE00454E60 /* ClothViewController.m */; };
+		16C262C11E808E1800454E60 /* DrinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C262C01E808E1800454E60 /* DrinkViewController.m */; };
+		16C262C41E808E4D00454E60 /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C262C31E808E4D00454E60 /* FoodViewController.m */; };
+		16C262C71E808E7500454E60 /* ItemlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C262C61E808E7500454E60 /* ItemlistViewController.m */; };
+		16C262CA1E808F5000454E60 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C262C91E808F5000454E60 /* FirstViewController.m */; };
+		16C262D71E808FD000454E60 /* Cloth.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C262CC1E808FD000454E60 /* Cloth.m */; };
+		16C262D81E808FD000454E60 /* Drinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C262CE1E808FD000454E60 /* Drinks.m */; };
+		16C262D91E808FD000454E60 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C262D01E808FD000454E60 /* Food.m */; };
+		16C262DA1E808FD000454E60 /* Material.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C262D21E808FD000454E60 /* Material.m */; };
+		16C262DB1E808FD000454E60 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C262D41E808FD000454E60 /* Products.m */; };
+		16C262DC1E808FD000454E60 /* ShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C262D61E808FD000454E60 /* ShoppingCart.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16C262A11E808D8E00454E60 /* FirstShoppingCartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstShoppingCartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C262A51E808D8E00454E60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16C262A71E808D8E00454E60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16C262A81E808D8E00454E60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16C262AE1E808D8E00454E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16C262B01E808D8E00454E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16C262B31E808D8E00454E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16C262B51E808D8E00454E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C262BB1E808DDE00454E60 /* ClothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothViewController.h; sourceTree = "<group>"; };
+		16C262BC1E808DDE00454E60 /* ClothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothViewController.m; sourceTree = "<group>"; };
+		16C262BF1E808E1800454E60 /* DrinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkViewController.h; sourceTree = "<group>"; };
+		16C262C01E808E1800454E60 /* DrinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkViewController.m; sourceTree = "<group>"; };
+		16C262C21E808E4D00454E60 /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
+		16C262C31E808E4D00454E60 /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
+		16C262C51E808E7500454E60 /* ItemlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemlistViewController.h; sourceTree = "<group>"; };
+		16C262C61E808E7500454E60 /* ItemlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemlistViewController.m; sourceTree = "<group>"; };
+		16C262C81E808F5000454E60 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		16C262C91E808F5000454E60 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		16C262CB1E808FD000454E60 /* Cloth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloth.h; sourceTree = "<group>"; };
+		16C262CC1E808FD000454E60 /* Cloth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cloth.m; sourceTree = "<group>"; };
+		16C262CD1E808FD000454E60 /* Drinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drinks.h; sourceTree = "<group>"; };
+		16C262CE1E808FD000454E60 /* Drinks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drinks.m; sourceTree = "<group>"; };
+		16C262CF1E808FD000454E60 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		16C262D01E808FD000454E60 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		16C262D11E808FD000454E60 /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
+		16C262D21E808FD000454E60 /* Material.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Material.m; sourceTree = "<group>"; };
+		16C262D31E808FD000454E60 /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
+		16C262D41E808FD000454E60 /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
+		16C262D51E808FD000454E60 /* ShoppingCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCart.h; sourceTree = "<group>"; };
+		16C262D61E808FD000454E60 /* ShoppingCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCart.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16C2629E1E808D8E00454E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C262981E808D8E00454E60 = {
+			isa = PBXGroup;
+			children = (
+				16C262A31E808D8E00454E60 /* FirstShoppingCartApp */,
+				16C262A21E808D8E00454E60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16C262A21E808D8E00454E60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C262A11E808D8E00454E60 /* FirstShoppingCartApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16C262A31E808D8E00454E60 /* FirstShoppingCartApp */ = {
+			isa = PBXGroup;
+			children = (
+				16C262A71E808D8E00454E60 /* AppDelegate.h */,
+				16C262A81E808D8E00454E60 /* AppDelegate.m */,
+				16C262BB1E808DDE00454E60 /* ClothViewController.h */,
+				16C262BC1E808DDE00454E60 /* ClothViewController.m */,
+				16C262BF1E808E1800454E60 /* DrinkViewController.h */,
+				16C262C01E808E1800454E60 /* DrinkViewController.m */,
+				16C262C21E808E4D00454E60 /* FoodViewController.h */,
+				16C262C31E808E4D00454E60 /* FoodViewController.m */,
+				16C262C51E808E7500454E60 /* ItemlistViewController.h */,
+				16C262C61E808E7500454E60 /* ItemlistViewController.m */,
+				16C262C81E808F5000454E60 /* FirstViewController.h */,
+				16C262C91E808F5000454E60 /* FirstViewController.m */,
+				16C262AD1E808D8E00454E60 /* Main.storyboard */,
+				16C262B01E808D8E00454E60 /* Assets.xcassets */,
+				16C262B21E808D8E00454E60 /* LaunchScreen.storyboard */,
+				16C262B51E808D8E00454E60 /* Info.plist */,
+				16C262A41E808D8E00454E60 /* Supporting Files */,
+			);
+			path = FirstShoppingCartApp;
+			sourceTree = "<group>";
+		};
+		16C262A41E808D8E00454E60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C262A51E808D8E00454E60 /* main.m */,
+				16C262CB1E808FD000454E60 /* Cloth.h */,
+				16C262CC1E808FD000454E60 /* Cloth.m */,
+				16C262CD1E808FD000454E60 /* Drinks.h */,
+				16C262CE1E808FD000454E60 /* Drinks.m */,
+				16C262CF1E808FD000454E60 /* Food.h */,
+				16C262D01E808FD000454E60 /* Food.m */,
+				16C262D11E808FD000454E60 /* Material.h */,
+				16C262D21E808FD000454E60 /* Material.m */,
+				16C262D31E808FD000454E60 /* Products.h */,
+				16C262D41E808FD000454E60 /* Products.m */,
+				16C262D51E808FD000454E60 /* ShoppingCart.h */,
+				16C262D61E808FD000454E60 /* ShoppingCart.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16C262A01E808D8E00454E60 /* FirstShoppingCartApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C262B81E808D8E00454E60 /* Build configuration list for PBXNativeTarget "FirstShoppingCartApp" */;
+			buildPhases = (
+				16C2629D1E808D8E00454E60 /* Sources */,
+				16C2629E1E808D8E00454E60 /* Frameworks */,
+				16C2629F1E808D8E00454E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstShoppingCartApp;
+			productName = FirstShoppingCartApp;
+			productReference = 16C262A11E808D8E00454E60 /* FirstShoppingCartApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16C262991E808D8E00454E60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sena Funakubo";
+				TargetAttributes = {
+					16C262A01E808D8E00454E60 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 16C2629C1E808D8E00454E60 /* Build configuration list for PBXProject "FirstShoppingCartApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16C262981E808D8E00454E60;
+			productRefGroup = 16C262A21E808D8E00454E60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16C262A01E808D8E00454E60 /* FirstShoppingCartApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16C2629F1E808D8E00454E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C262B41E808D8E00454E60 /* LaunchScreen.storyboard in Resources */,
+				16C262B11E808D8E00454E60 /* Assets.xcassets in Resources */,
+				16C262AF1E808D8E00454E60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C2629D1E808D8E00454E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C262DC1E808FD000454E60 /* ShoppingCart.m in Sources */,
+				16C262C41E808E4D00454E60 /* FoodViewController.m in Sources */,
+				16C262C71E808E7500454E60 /* ItemlistViewController.m in Sources */,
+				16C262CA1E808F5000454E60 /* FirstViewController.m in Sources */,
+				16C262D81E808FD000454E60 /* Drinks.m in Sources */,
+				16C262C11E808E1800454E60 /* DrinkViewController.m in Sources */,
+				16C262D91E808FD000454E60 /* Food.m in Sources */,
+				16C262DA1E808FD000454E60 /* Material.m in Sources */,
+				16C262D71E808FD000454E60 /* Cloth.m in Sources */,
+				16C262BD1E808DDE00454E60 /* ClothViewController.m in Sources */,
+				16C262DB1E808FD000454E60 /* Products.m in Sources */,
+				16C262A91E808D8E00454E60 /* AppDelegate.m in Sources */,
+				16C262A61E808D8E00454E60 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16C262AD1E808D8E00454E60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C262AE1E808D8E00454E60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16C262B21E808D8E00454E60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C262B31E808D8E00454E60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16C262B61E808D8E00454E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16C262B71E808D8E00454E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16C262B91E808D8E00454E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FirstShoppingCartApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sena-Funakubo.FirstShoppingCartApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16C262BA1E808D8E00454E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FirstShoppingCartApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sena-Funakubo.FirstShoppingCartApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C2629C1E808D8E00454E60 /* Build configuration list for PBXProject "FirstShoppingCartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C262B61E808D8E00454E60 /* Debug */,
+				16C262B71E808D8E00454E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C262B81E808D8E00454E60 /* Build configuration list for PBXNativeTarget "FirstShoppingCartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C262B91E808D8E00454E60 /* Debug */,
+				16C262BA1E808D8E00454E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16C262991E808D8E00454E60 /* Project object */;
+}
