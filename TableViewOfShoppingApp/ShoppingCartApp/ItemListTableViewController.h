@@ -34,7 +34,7 @@
 - (void)viewWillAppear:(BOOL)animated;
 
 //cancel button
-- (IBAction)CancelToSeeItemList:(UIButton *)sender;
+//- (IBAction)CancelToSeeItemList:(UIButton *)sender;
 
 
 @end

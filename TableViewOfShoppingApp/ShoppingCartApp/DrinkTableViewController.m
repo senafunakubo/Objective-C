@@ -163,9 +163,9 @@
 
 
 
-- (IBAction)CancelToSeeDrinkDetail:(UIButton *)sender {
-    [self dismissViewControllerAnimated:YES completion:NULL];
-}
+//- (IBAction)CancelToSeeDrinkDetail:(UIButton *)sender {
+//    [self dismissViewControllerAnimated:YES completion:NULL];
+//}
 
 
 - (IBAction)AddDrinkItem:(UIButton *)sender {

@@ -32,7 +32,7 @@
 
 
 - (IBAction)AddDrinkItem:(UIButton *)sender;
-- (IBAction)CancelToSeeDrinkDetail:(UIButton *)sender;
+//- (IBAction)CancelToSeeDrinkDetail:(UIButton *)sender;
 
 
 @end

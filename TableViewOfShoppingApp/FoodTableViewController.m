@@ -186,7 +186,7 @@
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
-- (IBAction)CancelToSeeDetail:(UIButton *)sender {
-    [self dismissViewControllerAnimated:YES completion:NULL];
-}
+//- (IBAction)CancelToSeeDetail:(UIButton *)sender {
+//    [self dismissViewControllerAnimated:YES completion:NULL];
+//}
 @end

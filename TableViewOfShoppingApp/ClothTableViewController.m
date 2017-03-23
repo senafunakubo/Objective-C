@@ -142,9 +142,9 @@
 }
 
 
-- (IBAction)CancelToSeeClothDetail:(UIButton *)sender {
-[self dismissViewControllerAnimated:YES completion:NULL];
-}
+//- (IBAction)CancelToSeeClothDetail:(UIButton *)sender {
+//[self dismissViewControllerAnimated:YES completion:NULL];
+//}
 
 
 - (IBAction)AddClothItem:(UIButton *)sender {

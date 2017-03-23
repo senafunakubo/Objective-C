@@ -36,6 +36,6 @@
 @property (strong, nonatomic) NSArray * foodIngredientsArray;
 
 - (IBAction)AddFoodItme:(UIButton *)sender;
-- (IBAction)CancelToSeeDetail:(UIButton *)sender;
+//- (IBAction)CancelToSeeDetail:(UIButton *)sender;
 
 @end

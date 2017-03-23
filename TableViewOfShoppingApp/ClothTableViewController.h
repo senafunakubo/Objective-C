@@ -38,6 +38,6 @@
 
 
 - (IBAction)AddClothItem:(UIButton *)sender;
-- (IBAction)CancelToSeeClothDetail:(UIButton *)sender;
+//- (IBAction)CancelToSeeClothDetail:(UIButton *)sender;
 
 @end

@@ -133,8 +133,10 @@
         
         vc.delegate = self;
         
-        [self presentViewController:vc animated:YES completion:NULL];
+        //For table one
+        //[self presentViewController:vc animated:YES completion:NULL];
         
+        [[self navigationController] pushViewController:vc animated:YES];
     }
     else if(indexPath.row==1) //drink
     {
@@ -144,7 +146,7 @@
         
         vc.delegate = self;
         
-        [self presentViewController:vc animated:YES completion:NULL];
+        [[self navigationController] pushViewController:vc animated:YES];
     }
     else if(indexPath.row==2)  //food
     {
@@ -154,7 +156,7 @@
         
         vc.delegate = self;
         
-        [self presentViewController:vc animated:YES completion:NULL];
+       [[self navigationController] pushViewController:vc animated:YES];
     }
     else //shopping list
     {
@@ -164,9 +166,8 @@
         
         vc.shoppingCart=self.shoppingCart;
         
-        //vc.delegate = self;
-        
-        [self presentViewController:vc animated:YES completion:NULL];
+        [[self navigationController] pushViewController:vc animated:YES];
+//        [self presentViewController:vc animated:YES completion:NULL];
 
     }
 }
@@ -191,6 +192,7 @@
    {
        
        ((ItemListTableViewController*)(segue.destinationViewController)).shoppingCart = self.shoppingCart;
+       //なんでキャストする必要があるのか
        
    }
 }
