@@ -30,8 +30,9 @@
 @property (strong, nonatomic) NSMutableArray * productItemsArray;
 @property (strong, nonatomic) ShoppingCart * shoppingCart;
 
+-(void)showItemLists;
 
-- (void)viewWillAppear:(BOOL)animated;
+//- (void)viewWillAppear:(BOOL)animated;
 
 //cancel button
 //- (IBAction)CancelToSeeItemList:(UIButton *)sender;

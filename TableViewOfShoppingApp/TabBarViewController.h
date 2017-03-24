@@ -14,10 +14,6 @@
 #import "FirstTableViewController.h"
 #import "ItemListTableViewController.h"
 
-@protocol MyTabBarControllerDelegate
-
-@end
-
 @interface TabBarViewController : UITabBarController<UITabBarControllerDelegate,ClothTVDelegate,DrinkTVDelegate,FoodTVDelegate,ItemListTVDelegate,FirstTVDelegate>
 
 @property (strong, nonatomic) ShoppingCart * shoppingCart;

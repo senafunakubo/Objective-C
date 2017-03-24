@@ -102,11 +102,10 @@
 }
 
 
-- (void)viewWillAppear:(BOOL)animated
-{
-   float amount = [self.shoppingCart calculateTotalCost];
-   self.TotalAmount.text = [@"$" stringByAppendingString:[NSString stringWithFormat:@"%.2f", amount]];
-}
+//- (void)viewWillAppear:(BOOL)animated
+//{
+//   self.TotalAmount.text = [@"$" stringByAppendingString:[NSString stringWithFormat:@"%0.2f", (float)[self.shoppingCart calculateTotalCost]]];
+//}
 
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -122,55 +121,55 @@
     
 }
 
--(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if(indexPath.row==0) //cloth
-    {
-        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:NULL];
-        
-    
-        ClothTableViewController* vc = (ClothTableViewController*)[storyboard instantiateViewControllerWithIdentifier:@"ClothTableViewControllerID"];
-        
-        vc.delegate = self;
-        
-        //For table one
-        //[self presentViewController:vc animated:YES completion:NULL];
-        
-        [[self navigationController] pushViewController:vc animated:YES];
-    }
-    else if(indexPath.row==1) //drink
-    {
-        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:NULL];
-        
-        DrinkTableViewController* vc = (DrinkTableViewController*)[storyboard instantiateViewControllerWithIdentifier:@"DrinkTableViewControllerID"];
-        
-        vc.delegate = self;
-        
-        [[self navigationController] pushViewController:vc animated:YES];
-    }
-    else if(indexPath.row==2)  //food
-    {
-        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:NULL];
-        
-        FoodTableViewController* vc = (FoodTableViewController*)[storyboard instantiateViewControllerWithIdentifier:@"FoodTableViewControllerID"];
-        
-        vc.delegate = self;
-        
-       [[self navigationController] pushViewController:vc animated:YES];
-    }
-    else //shopping list
-    {
-        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:NULL];
-        
-        ItemListTableViewController* vc = (ItemListTableViewController*)[storyboard instantiateViewControllerWithIdentifier:@"ItemListTableViewControllerID"];
-        
-        vc.shoppingCart=self.shoppingCart;
-        
-        [[self navigationController] pushViewController:vc animated:YES];
-//        [self presentViewController:vc animated:YES completion:NULL];
-
-    }
-}
+//-(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    if(indexPath.row==0) //cloth
+//    {
+//        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:NULL];
+//        
+//    
+//        ClothTableViewController* vc = (ClothTableViewController*)[storyboard instantiateViewControllerWithIdentifier:@"ClothTableViewControllerID"];
+//        
+////        vc.delegate = self;
+//        
+//        //For table one
+//        //[self presentViewController:vc animated:YES completion:NULL];
+//        
+//        [[self navigationController] pushViewController:vc animated:YES];
+//    }
+//    else if(indexPath.row==1) //drink
+//    {
+//        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:NULL];
+//        
+//        DrinkTableViewController* vc = (DrinkTableViewController*)[storyboard instantiateViewControllerWithIdentifier:@"DrinkTableViewControllerID"];
+//        
+////        vc.delegate = self;
+//        
+//        [[self navigationController] pushViewController:vc animated:YES];
+//    }
+//    else if(indexPath.row==2)  //food
+//    {
+//        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:NULL];
+//        
+//        FoodTableViewController* vc = (FoodTableViewController*)[storyboard instantiateViewControllerWithIdentifier:@"FoodTableViewControllerID"];
+//        
+////        vc.delegate = self;
+//        
+//       [[self navigationController] pushViewController:vc animated:YES];
+//    }
+//    else //shopping list
+//    {
+//        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:NULL];
+//        
+//        ItemListTableViewController* vc = (ItemListTableViewController*)[storyboard instantiateViewControllerWithIdentifier:@"ItemListTableViewControllerID"];
+//        
+//        vc.shoppingCart=self.shoppingCart;
+//        
+//        [[self navigationController] pushViewController:vc animated:YES];
+////        [self presentViewController:vc animated:YES completion:NULL];
+//
+//    }
+//}
 
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -186,14 +185,19 @@
 }
 
 
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+-(void)caculatePrice
 {
-   if([segue.identifier isEqualToString:@"showlistsegueid"])
-   {
-       
-       ((ItemListTableViewController*)(segue.destinationViewController)).shoppingCart = self.shoppingCart;
-       //なんでキャストする必要があるのか
-   }
+  self.TotalAmount.text = [@"$" stringByAppendingString:[NSString stringWithFormat:@"%0.2f", (float)[self.delegate thePriceOfProducts]]];
 }
+
+//-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+//{
+//   if([segue.identifier isEqualToString:@"showlistsegueid"])
+//   {
+//       
+//       ((ItemListTableViewController*)(segue.destinationViewController)).shoppingCart = self.shoppingCart;
+//       //なんでキャストする必要があるのか
+//   }
+//}
 
 @end

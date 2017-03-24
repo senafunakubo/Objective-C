@@ -17,7 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.delegate = self;
-//    self.shoppingCart = [[ShoppingCart alloc]init];
     NSMutableArray<Products*>* productsArray = [[NSMutableArray alloc]init];
     self.shoppingCart = [[ShoppingCart alloc]initWithProductsArray:productsArray];
 }
@@ -42,11 +41,11 @@
     }
     else if([viewController isMemberOfClass:[FirstTableViewController class]]) {
         ((FirstTableViewController*)viewController).delegate = self;
-        //[(FirstTableViewController*)viewController caculatePrice];
+        [(FirstTableViewController*)viewController caculatePrice];
     }
     else if([viewController isMemberOfClass:[ItemListTableViewController class]]) {
         ((ItemListTableViewController*)viewController).delegate = self;
-        //[(ItemListTableViewController*)viewController  seeItems];
+        [(ItemListTableViewController*)viewController  showItemLists];
     }
 }
 
@@ -70,6 +69,12 @@
 - (void)addBuyFoodItem:(Food*)food
 {
     [self.shoppingCart addToShoppingCart:food];
+}
+
+-(float)thePriceOfProducts
+{
+    float cost = [self.shoppingCart calculateTotalCost];
+    return cost;
 }
 
 @end

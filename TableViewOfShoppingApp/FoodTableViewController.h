@@ -35,7 +35,7 @@
 @property (strong, nonatomic) NSString * foodIngredientsString;
 @property (strong, nonatomic) NSArray * foodIngredientsArray;
 
-- (IBAction)AddFoodItme:(UIButton *)sender;
+- (IBAction)AddFoodItem:(UIButton *)sender;
 //- (IBAction)CancelToSeeDetail:(UIButton *)sender;
 
 @end

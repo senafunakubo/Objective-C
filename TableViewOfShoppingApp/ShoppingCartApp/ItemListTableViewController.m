@@ -26,12 +26,10 @@
 
 }
 
--(void) viewWillAppear:(BOOL)animated
-{
-    self.productItemsArray = self.shoppingCart.productsArray;
-    
-    
-}
+//-(void) viewWillAppear:(BOOL)animated
+//{
+//    self.productItemsArray = self.shoppingCart.productsArray;
+//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -90,6 +88,11 @@
     return 104;
 }
 
+-(void)showItemLists
+{
+   self.productItemsArray = [self.delegate seeItems];
+    [self.itemListTableView reloadData];
+}
 
 //- (IBAction)CancelToSeeItemList:(UIButton *)sender {
 //[self dismissViewControllerAnimated:YES completion:NULL];

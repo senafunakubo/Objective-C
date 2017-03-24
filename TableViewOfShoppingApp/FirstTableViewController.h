@@ -23,11 +23,12 @@
 
 @protocol FirstTVDelegate<NSObject>
 
+-(float)thePriceOfProducts;
 
 @end
 
 
-@interface FirstTableViewController : UIViewController<UITableViewDelegate, UITableViewDataSource, ClothTVDelegate,DrinkTVDelegate,FoodTVDelegate,ItemListTVDelegate>
+@interface FirstTableViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) id<FirstTVDelegate> delegate;
 
@@ -36,5 +37,6 @@
 
 @property (strong, nonatomic) ShoppingCart * shoppingCart;
 
+-(void)caculatePrice;
 
 @end

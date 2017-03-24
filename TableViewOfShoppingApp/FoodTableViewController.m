@@ -168,9 +168,13 @@
     return 6;
 }
 
+//- (IBAction)CancelToSeeDetail:(UIButton *)sender {
+//    [self dismissViewControllerAnimated:YES completion:NULL];
+//}
 
 
-- (IBAction)AddFoodItme:(UIButton *)sender {
+
+- (IBAction)AddFoodItem:(UIButton *)sender {
     self.food = [[Food alloc]init];
     self.food.productID = (int)[self.foodIDTextField.text integerValue];
     self.food.productName = self.foodNameTextField.text;
@@ -186,7 +190,5 @@
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
-//- (IBAction)CancelToSeeDetail:(UIButton *)sender {
-//    [self dismissViewControllerAnimated:YES completion:NULL];
-//}
+
 @end
