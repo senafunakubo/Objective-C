@@ -21,7 +21,15 @@
 #import "DrinkTableViewController.h"
 #import "ItemListTableViewController.h"
 
+@protocol FirstTVDelegate<NSObject>
+
+
+@end
+
+
 @interface FirstTableViewController : UIViewController<UITableViewDelegate, UITableViewDataSource, ClothTVDelegate,DrinkTVDelegate,FoodTVDelegate,ItemListTVDelegate>
+
+@property (weak, nonatomic) id<FirstTVDelegate> delegate;
 
 @property (weak, nonatomic) IBOutlet UITableView *firstTableView;
 @property (weak, nonatomic) IBOutlet UILabel *TotalAmount;

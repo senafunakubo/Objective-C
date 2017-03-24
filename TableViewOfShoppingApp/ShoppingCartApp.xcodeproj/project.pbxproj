@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1614D5A61E836D6D00CE2814 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1614D5A51E836D6D00CE2814 /* TabBarViewController.m */; };
 		161897061E70EC2100588213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 161897051E70EC2100588213 /* main.m */; };
 		161897091E70EC2100588213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 161897081E70EC2100588213 /* AppDelegate.m */; };
 		161897111E70EC2100588213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161897101E70EC2100588213 /* Assets.xcassets */; };
@@ -31,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1614D5A41E836D6D00CE2814 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		1614D5A51E836D6D00CE2814 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		161897011E70EC2100588213 /* ShoppingCartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingCartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		161897051E70EC2100588213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		161897071E70EC2100588213 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 		161896F81E70EC2100588213 = {
 			isa = PBXGroup;
 			children = (
+				1614D5A41E836D6D00CE2814 /* TabBarViewController.h */,
+				1614D5A51E836D6D00CE2814 /* TabBarViewController.m */,
 				16C262961E808A8400454E60 /* Default-568h@2x.png */,
 				16F1117F1E7A10E100880A3B /* FirstTableViewController.h */,
 				16F111801E7A10E100880A3B /* FirstTableViewController.m */,
@@ -235,6 +240,7 @@
 				16F111841E7A168A00880A3B /* FirstTableViewCell.m in Sources */,
 				16F111811E7A10E100880A3B /* FirstTableViewController.m in Sources */,
 				16BC1C511E736FB0008F6A9D /* Cloth.m in Sources */,
+				1614D5A61E836D6D00CE2814 /* TabBarViewController.m in Sources */,
 				16F111961E7A452600880A3B /* FoodTableViewCell.m in Sources */,
 				16BC1C5E1E736FFE008F6A9D /* Products.m in Sources */,
 				161BBEE41E7B491200AA0318 /* ItemListTableViewController.m in Sources */,
