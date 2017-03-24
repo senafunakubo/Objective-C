@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		161897061E70EC2100588213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 161897051E70EC2100588213 /* main.m */; };
+		161897091E70EC2100588213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 161897081E70EC2100588213 /* AppDelegate.m */; };
+		161897111E70EC2100588213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161897101E70EC2100588213 /* Assets.xcassets */; };
+		161BBEE41E7B491200AA0318 /* ItemListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BBEE31E7B491200AA0318 /* ItemListTableViewController.m */; };
+		161BBEE71E7B493600AA0318 /* ItemListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BBEE61E7B493600AA0318 /* ItemListTableViewCell.m */; };
+		16BC1C511E736FB0008F6A9D /* Cloth.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BC1C4E1E736FB0008F6A9D /* Cloth.m */; };
+		16BC1C521E736FB0008F6A9D /* Drinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BC1C501E736FB0008F6A9D /* Drinks.m */; };
+		16BC1C571E736FC9008F6A9D /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BC1C541E736FC9008F6A9D /* Food.m */; };
+		16BC1C581E736FC9008F6A9D /* Material.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BC1C561E736FC9008F6A9D /* Material.m */; };
+		16BC1C5B1E736FE5008F6A9D /* ShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BC1C5A1E736FE5008F6A9D /* ShoppingCart.m */; };
+		16BC1C5E1E736FFE008F6A9D /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BC1C5D1E736FFE008F6A9D /* Products.m */; };
+		16BC1C601E737569008F6A9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16BC1C5F1E737569008F6A9D /* Main.storyboard */; };
+		16C262971E808A8400454E60 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16C262961E808A8400454E60 /* Default-568h@2x.png */; };
+		16F111811E7A10E100880A3B /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F111801E7A10E100880A3B /* FirstTableViewController.m */; };
+		16F111841E7A168A00880A3B /* FirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F111831E7A168A00880A3B /* FirstTableViewCell.m */; };
+		16F111871E7A384900880A3B /* DrinkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F111861E7A384900880A3B /* DrinkTableViewController.m */; };
+		16F1118A1E7A386100880A3B /* DrinkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F111891E7A386100880A3B /* DrinkTableViewCell.m */; };
+		16F1118D1E7A3EB900880A3B /* ClothTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F1118C1E7A3EB900880A3B /* ClothTableViewController.m */; };
+		16F111901E7A3F1C00880A3B /* ClothTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F1118F1E7A3F1C00880A3B /* ClothTableViewCell.m */; };
+		16F111931E7A450800880A3B /* FoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F111921E7A450800880A3B /* FoodTableViewController.m */; };
+		16F111961E7A452600880A3B /* FoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F111951E7A452600880A3B /* FoodTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		161897011E70EC2100588213 /* ShoppingCartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingCartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		161897051E70EC2100588213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		161897071E70EC2100588213 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		161897081E70EC2100588213 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		161897101E70EC2100588213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		161BBEE21E7B491200AA0318 /* ItemListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemListTableViewController.h; path = ShoppingCartApp/ItemListTableViewController.h; sourceTree = "<group>"; };
+		161BBEE31E7B491200AA0318 /* ItemListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemListTableViewController.m; path = ShoppingCartApp/ItemListTableViewController.m; sourceTree = "<group>"; };
+		161BBEE51E7B493600AA0318 /* ItemListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemListTableViewCell.h; sourceTree = "<group>"; };
+		161BBEE61E7B493600AA0318 /* ItemListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemListTableViewCell.m; sourceTree = "<group>"; };
+		16BC1C4D1E736FB0008F6A9D /* Cloth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloth.h; sourceTree = "<group>"; };
+		16BC1C4E1E736FB0008F6A9D /* Cloth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cloth.m; sourceTree = "<group>"; };
+		16BC1C4F1E736FB0008F6A9D /* Drinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drinks.h; sourceTree = "<group>"; };
+		16BC1C501E736FB0008F6A9D /* Drinks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drinks.m; sourceTree = "<group>"; };
+		16BC1C531E736FC9008F6A9D /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		16BC1C541E736FC9008F6A9D /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		16BC1C551E736FC9008F6A9D /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
+		16BC1C561E736FC9008F6A9D /* Material.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Material.m; sourceTree = "<group>"; };
+		16BC1C591E736FE5008F6A9D /* ShoppingCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCart.h; sourceTree = "<group>"; };
+		16BC1C5A1E736FE5008F6A9D /* ShoppingCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCart.m; sourceTree = "<group>"; };
+		16BC1C5C1E736FFE008F6A9D /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
+		16BC1C5D1E736FFE008F6A9D /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
+		16BC1C5F1E737569008F6A9D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		16C262961E808A8400454E60 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		16F1117F1E7A10E100880A3B /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		16F111801E7A10E100880A3B /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		16F111821E7A168A00880A3B /* FirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewCell.h; sourceTree = "<group>"; };
+		16F111831E7A168A00880A3B /* FirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewCell.m; sourceTree = "<group>"; };
+		16F111851E7A384900880A3B /* DrinkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrinkTableViewController.h; path = ShoppingCartApp/DrinkTableViewController.h; sourceTree = "<group>"; };
+		16F111861E7A384900880A3B /* DrinkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrinkTableViewController.m; path = ShoppingCartApp/DrinkTableViewController.m; sourceTree = "<group>"; };
+		16F111881E7A386100880A3B /* DrinkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkTableViewCell.h; sourceTree = "<group>"; };
+		16F111891E7A386100880A3B /* DrinkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkTableViewCell.m; sourceTree = "<group>"; };
+		16F1118B1E7A3EB900880A3B /* ClothTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothTableViewController.h; sourceTree = "<group>"; };
+		16F1118C1E7A3EB900880A3B /* ClothTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothTableViewController.m; sourceTree = "<group>"; };
+		16F1118E1E7A3F1C00880A3B /* ClothTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothTableViewCell.h; sourceTree = "<group>"; };
+		16F1118F1E7A3F1C00880A3B /* ClothTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothTableViewCell.m; sourceTree = "<group>"; };
+		16F111911E7A450800880A3B /* FoodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewController.h; sourceTree = "<group>"; };
+		16F111921E7A450800880A3B /* FoodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewController.m; sourceTree = "<group>"; };
+		16F111941E7A452600880A3B /* FoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewCell.h; sourceTree = "<group>"; };
+		16F111951E7A452600880A3B /* FoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		161896FE1E70EC2100588213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		161896F81E70EC2100588213 = {
+			isa = PBXGroup;
+			children = (
+				16C262961E808A8400454E60 /* Default-568h@2x.png */,
+				16F1117F1E7A10E100880A3B /* FirstTableViewController.h */,
+				16F111801E7A10E100880A3B /* FirstTableViewController.m */,
+				16F111821E7A168A00880A3B /* FirstTableViewCell.h */,
+				16F111831E7A168A00880A3B /* FirstTableViewCell.m */,
+				16F111851E7A384900880A3B /* DrinkTableViewController.h */,
+				16F111861E7A384900880A3B /* DrinkTableViewController.m */,
+				16F111881E7A386100880A3B /* DrinkTableViewCell.h */,
+				16F111891E7A386100880A3B /* DrinkTableViewCell.m */,
+				16F1118B1E7A3EB900880A3B /* ClothTableViewController.h */,
+				16F1118C1E7A3EB900880A3B /* ClothTableViewController.m */,
+				16F1118E1E7A3F1C00880A3B /* ClothTableViewCell.h */,
+				16F1118F1E7A3F1C00880A3B /* ClothTableViewCell.m */,
+				16F111911E7A450800880A3B /* FoodTableViewController.h */,
+				16F111921E7A450800880A3B /* FoodTableViewController.m */,
+				16F111941E7A452600880A3B /* FoodTableViewCell.h */,
+				16F111951E7A452600880A3B /* FoodTableViewCell.m */,
+				161BBEE21E7B491200AA0318 /* ItemListTableViewController.h */,
+				161BBEE31E7B491200AA0318 /* ItemListTableViewController.m */,
+				161BBEE51E7B493600AA0318 /* ItemListTableViewCell.h */,
+				161BBEE61E7B493600AA0318 /* ItemListTableViewCell.m */,
+				161897031E70EC2100588213 /* ShoppingCartApp */,
+				161897021E70EC2100588213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		161897021E70EC2100588213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				161897011E70EC2100588213 /* ShoppingCartApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		161897031E70EC2100588213 /* ShoppingCartApp */ = {
+			isa = PBXGroup;
+			children = (
+				161897071E70EC2100588213 /* AppDelegate.h */,
+				161897081E70EC2100588213 /* AppDelegate.m */,
+				161897101E70EC2100588213 /* Assets.xcassets */,
+				16BC1C5F1E737569008F6A9D /* Main.storyboard */,
+				161897041E70EC2100588213 /* Supporting Files */,
+			);
+			path = ShoppingCartApp;
+			sourceTree = "<group>";
+		};
+		161897041E70EC2100588213 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16BC1C4D1E736FB0008F6A9D /* Cloth.h */,
+				16BC1C4E1E736FB0008F6A9D /* Cloth.m */,
+				16BC1C4F1E736FB0008F6A9D /* Drinks.h */,
+				16BC1C501E736FB0008F6A9D /* Drinks.m */,
+				16BC1C531E736FC9008F6A9D /* Food.h */,
+				16BC1C541E736FC9008F6A9D /* Food.m */,
+				16BC1C551E736FC9008F6A9D /* Material.h */,
+				16BC1C561E736FC9008F6A9D /* Material.m */,
+				16BC1C5C1E736FFE008F6A9D /* Products.h */,
+				16BC1C5D1E736FFE008F6A9D /* Products.m */,
+				16BC1C591E736FE5008F6A9D /* ShoppingCart.h */,
+				16BC1C5A1E736FE5008F6A9D /* ShoppingCart.m */,
+				161897051E70EC2100588213 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		161897001E70EC2100588213 /* ShoppingCartApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 161897181E70EC2100588213 /* Build configuration list for PBXNativeTarget "ShoppingCartApp" */;
+			buildPhases = (
+				161896FD1E70EC2100588213 /* Sources */,
+				161896FE1E70EC2100588213 /* Frameworks */,
+				161896FF1E70EC2100588213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoppingCartApp;
+			productName = ShoppingCartApp;
+			productReference = 161897011E70EC2100588213 /* ShoppingCartApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		161896F91E70EC2100588213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sena Funakubo";
+				TargetAttributes = {
+					161897001E70EC2100588213 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 161896FC1E70EC2100588213 /* Build configuration list for PBXProject "ShoppingCartApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 161896F81E70EC2100588213;
+			productRefGroup = 161897021E70EC2100588213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				161897001E70EC2100588213 /* ShoppingCartApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		161896FF1E70EC2100588213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BC1C601E737569008F6A9D /* Main.storyboard in Resources */,
+				161897111E70EC2100588213 /* Assets.xcassets in Resources */,
+				16C262971E808A8400454E60 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		161896FD1E70EC2100588213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F1118A1E7A386100880A3B /* DrinkTableViewCell.m in Sources */,
+				16F1118D1E7A3EB900880A3B /* ClothTableViewController.m in Sources */,
+				161BBEE71E7B493600AA0318 /* ItemListTableViewCell.m in Sources */,
+				16F111901E7A3F1C00880A3B /* ClothTableViewCell.m in Sources */,
+				16BC1C521E736FB0008F6A9D /* Drinks.m in Sources */,
+				16F111871E7A384900880A3B /* DrinkTableViewController.m in Sources */,
+				16BC1C571E736FC9008F6A9D /* Food.m in Sources */,
+				16BC1C581E736FC9008F6A9D /* Material.m in Sources */,
+				16F111931E7A450800880A3B /* FoodTableViewController.m in Sources */,
+				16F111841E7A168A00880A3B /* FirstTableViewCell.m in Sources */,
+				16F111811E7A10E100880A3B /* FirstTableViewController.m in Sources */,
+				16BC1C511E736FB0008F6A9D /* Cloth.m in Sources */,
+				16F111961E7A452600880A3B /* FoodTableViewCell.m in Sources */,
+				16BC1C5E1E736FFE008F6A9D /* Products.m in Sources */,
+				161BBEE41E7B491200AA0318 /* ItemListTableViewController.m in Sources */,
+				161897091E70EC2100588213 /* AppDelegate.m in Sources */,
+				161897061E70EC2100588213 /* main.m in Sources */,
+				16BC1C5B1E736FE5008F6A9D /* ShoppingCart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		161897161E70EC2100588213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		161897171E70EC2100588213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		161897191E70EC2100588213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShoppingCartApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sena-Funakubo.ShoppingCartApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1618971A1E70EC2100588213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShoppingCartApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sena-Funakubo.ShoppingCartApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		161896FC1E70EC2100588213 /* Build configuration list for PBXProject "ShoppingCartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				161897161E70EC2100588213 /* Debug */,
+				161897171E70EC2100588213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		161897181E70EC2100588213 /* Build configuration list for PBXNativeTarget "ShoppingCartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				161897191E70EC2100588213 /* Debug */,
+				1618971A1E70EC2100588213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 161896F91E70EC2100588213 /* Project object */;
+}

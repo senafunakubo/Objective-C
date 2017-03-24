@@ -17,7 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.delegate = self;
-    self.shoppingCart = [[ShoppingCart alloc]init];
+//    self.shoppingCart = [[ShoppingCart alloc]init];
+    NSMutableArray<Products*>* productsArray = [[NSMutableArray alloc]init];
+    self.shoppingCart = [[ShoppingCart alloc]initWithProductsArray:productsArray];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -48,6 +50,11 @@
     }
 }
 
+
+- (NSMutableArray<Products*>*)seeItems
+{
+    return self.shoppingCart.productsArray;
+}
 
 
 - (void)addBuyClothItem:(Cloth*)cloth

@@ -193,6 +193,7 @@
        
        ((ItemListTableViewController*)(segue.destinationViewController)).shoppingCart = self.shoppingCart;
        //なんでキャストする必要があるのか
+       
    }
 }
 

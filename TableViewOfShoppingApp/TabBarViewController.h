@@ -16,8 +16,6 @@
 
 @protocol MyTabBarControllerDelegate
 
-//- (void) didSelect:(TabBarViewController*) tabBarController;
-
 @end
 
 @interface TabBarViewController : UITabBarController<UITabBarControllerDelegate,ClothTVDelegate,DrinkTVDelegate,FoodTVDelegate,ItemListTVDelegate,FirstTVDelegate>
