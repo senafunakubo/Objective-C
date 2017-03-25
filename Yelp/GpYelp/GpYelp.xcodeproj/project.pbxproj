@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		161C5D211E68EDB400F1C153 /* ReviewOfReview.m in Sources */ = {isa = PBXBuildFile; fileRef = 161C5D201E68EDB400F1C153 /* ReviewOfReview.m */; };
+		161F0FD71E63E1E700D03AC8 /* Profiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 161F0FD61E63E1E700D03AC8 /* Profiles.m */; };
+		161F0FDA1E63E70300D03AC8 /* findFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 161F0FD91E63E70300D03AC8 /* findFood.m */; };
+		161F0FDD1E63E7A400D03AC8 /* Recommendation.m in Sources */ = {isa = PBXBuildFile; fileRef = 161F0FDC1E63E7A400D03AC8 /* Recommendation.m */; };
+		169CC16B1E5EA1AB00EC75D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 169CC16A1E5EA1AB00EC75D2 /* main.m */; };
+		169CC1701E5EA1AB00EC75D2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 169CC16E1E5EA1AB00EC75D2 /* MainMenu.xib */; };
+		169CC17C1E5EA22900EC75D2 /* Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 169CC17B1E5EA22900EC75D2 /* Search.m */; };
+		169CC1851E5EA26C00EC75D2 /* ShowRInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 169CC1841E5EA26C00EC75D2 /* ShowRInfo.m */; };
+		169CC1881E5EA27D00EC75D2 /* Review.m in Sources */ = {isa = PBXBuildFile; fileRef = 169CC1871E5EA27D00EC75D2 /* Review.m */; };
+		169CC18B1E5EA29600EC75D2 /* WritingReview.m in Sources */ = {isa = PBXBuildFile; fileRef = 169CC18A1E5EA29600EC75D2 /* WritingReview.m */; };
+		169CC18E1E5EA2AA00EC75D2 /* AdditionalTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 169CC18D1E5EA2AA00EC75D2 /* AdditionalTip.m */; };
+		16F918FA1E613AAF00498904 /* PostComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F918F91E613AAF00498904 /* PostComment.m */; };
+		16F918FD1E613D4400498904 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F918FC1E613D4400498904 /* User.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		161C5D1F1E68EDB400F1C153 /* ReviewOfReview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewOfReview.h; sourceTree = "<group>"; };
+		161C5D201E68EDB400F1C153 /* ReviewOfReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewOfReview.m; sourceTree = "<group>"; };
+		161F0FD51E63E1E700D03AC8 /* Profiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profiles.h; sourceTree = "<group>"; };
+		161F0FD61E63E1E700D03AC8 /* Profiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profiles.m; sourceTree = "<group>"; };
+		161F0FD81E63E70300D03AC8 /* findFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = findFood.h; sourceTree = "<group>"; };
+		161F0FD91E63E70300D03AC8 /* findFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = findFood.m; sourceTree = "<group>"; };
+		161F0FDB1E63E7A400D03AC8 /* Recommendation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recommendation.h; sourceTree = "<group>"; };
+		161F0FDC1E63E7A400D03AC8 /* Recommendation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recommendation.m; sourceTree = "<group>"; };
+		169CC1631E5EA1AB00EC75D2 /* GpYelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GpYelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		169CC16A1E5EA1AB00EC75D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		169CC16F1E5EA1AB00EC75D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		169CC1711E5EA1AB00EC75D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169CC17A1E5EA22900EC75D2 /* Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Search.h; sourceTree = "<group>"; };
+		169CC17B1E5EA22900EC75D2 /* Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Search.m; sourceTree = "<group>"; };
+		169CC1831E5EA26C00EC75D2 /* ShowRInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowRInfo.h; sourceTree = "<group>"; };
+		169CC1841E5EA26C00EC75D2 /* ShowRInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowRInfo.m; sourceTree = "<group>"; };
+		169CC1861E5EA27D00EC75D2 /* Review.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Review.h; sourceTree = "<group>"; };
+		169CC1871E5EA27D00EC75D2 /* Review.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Review.m; sourceTree = "<group>"; };
+		169CC1891E5EA29600EC75D2 /* WritingReview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WritingReview.h; sourceTree = "<group>"; };
+		169CC18A1E5EA29600EC75D2 /* WritingReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WritingReview.m; sourceTree = "<group>"; };
+		169CC18C1E5EA2AA00EC75D2 /* AdditionalTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionalTip.h; sourceTree = "<group>"; };
+		169CC18D1E5EA2AA00EC75D2 /* AdditionalTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionalTip.m; sourceTree = "<group>"; };
+		16F918F81E613AAF00498904 /* PostComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostComment.h; sourceTree = "<group>"; };
+		16F918F91E613AAF00498904 /* PostComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostComment.m; sourceTree = "<group>"; };
+		16F918FB1E613D4400498904 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		16F918FC1E613D4400498904 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		169CC1601E5EA1AB00EC75D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		169CC15A1E5EA1AB00EC75D2 = {
+			isa = PBXGroup;
+			children = (
+				169CC1651E5EA1AB00EC75D2 /* GpYelp */,
+				16F918FB1E613D4400498904 /* User.h */,
+				16F918FC1E613D4400498904 /* User.m */,
+				161F0FD51E63E1E700D03AC8 /* Profiles.h */,
+				161F0FD61E63E1E700D03AC8 /* Profiles.m */,
+				169CC17A1E5EA22900EC75D2 /* Search.h */,
+				169CC17B1E5EA22900EC75D2 /* Search.m */,
+				161F0FD81E63E70300D03AC8 /* findFood.h */,
+				161F0FD91E63E70300D03AC8 /* findFood.m */,
+				169CC18C1E5EA2AA00EC75D2 /* AdditionalTip.h */,
+				169CC18D1E5EA2AA00EC75D2 /* AdditionalTip.m */,
+				161F0FDB1E63E7A400D03AC8 /* Recommendation.h */,
+				161F0FDC1E63E7A400D03AC8 /* Recommendation.m */,
+				169CC1831E5EA26C00EC75D2 /* ShowRInfo.h */,
+				169CC1841E5EA26C00EC75D2 /* ShowRInfo.m */,
+				16F918F81E613AAF00498904 /* PostComment.h */,
+				16F918F91E613AAF00498904 /* PostComment.m */,
+				169CC1861E5EA27D00EC75D2 /* Review.h */,
+				169CC1871E5EA27D00EC75D2 /* Review.m */,
+				161C5D1F1E68EDB400F1C153 /* ReviewOfReview.h */,
+				161C5D201E68EDB400F1C153 /* ReviewOfReview.m */,
+				169CC1891E5EA29600EC75D2 /* WritingReview.h */,
+				169CC18A1E5EA29600EC75D2 /* WritingReview.m */,
+				169CC1641E5EA1AB00EC75D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		169CC1641E5EA1AB00EC75D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				169CC1631E5EA1AB00EC75D2 /* GpYelp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		169CC1651E5EA1AB00EC75D2 /* GpYelp */ = {
+			isa = PBXGroup;
+			children = (
+				169CC16E1E5EA1AB00EC75D2 /* MainMenu.xib */,
+				169CC1711E5EA1AB00EC75D2 /* Info.plist */,
+				169CC1691E5EA1AB00EC75D2 /* Supporting Files */,
+			);
+			path = GpYelp;
+			sourceTree = "<group>";
+		};
+		169CC1691E5EA1AB00EC75D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				169CC16A1E5EA1AB00EC75D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		169CC1621E5EA1AB00EC75D2 /* GpYelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169CC1741E5EA1AB00EC75D2 /* Build configuration list for PBXNativeTarget "GpYelp" */;
+			buildPhases = (
+				169CC15F1E5EA1AB00EC75D2 /* Sources */,
+				169CC1601E5EA1AB00EC75D2 /* Frameworks */,
+				169CC1611E5EA1AB00EC75D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GpYelp;
+			productName = GpYelp;
+			productReference = 169CC1631E5EA1AB00EC75D2 /* GpYelp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		169CC15B1E5EA1AB00EC75D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sena Funakubo";
+				TargetAttributes = {
+					169CC1621E5EA1AB00EC75D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 169CC15E1E5EA1AB00EC75D2 /* Build configuration list for PBXProject "GpYelp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 169CC15A1E5EA1AB00EC75D2;
+			productRefGroup = 169CC1641E5EA1AB00EC75D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				169CC1621E5EA1AB00EC75D2 /* GpYelp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		169CC1611E5EA1AB00EC75D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169CC1701E5EA1AB00EC75D2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		169CC15F1E5EA1AB00EC75D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161F0FDD1E63E7A400D03AC8 /* Recommendation.m in Sources */,
+				16F918FD1E613D4400498904 /* User.m in Sources */,
+				169CC18B1E5EA29600EC75D2 /* WritingReview.m in Sources */,
+				16F918FA1E613AAF00498904 /* PostComment.m in Sources */,
+				161C5D211E68EDB400F1C153 /* ReviewOfReview.m in Sources */,
+				169CC17C1E5EA22900EC75D2 /* Search.m in Sources */,
+				169CC16B1E5EA1AB00EC75D2 /* main.m in Sources */,
+				161F0FDA1E63E70300D03AC8 /* findFood.m in Sources */,
+				169CC18E1E5EA2AA00EC75D2 /* AdditionalTip.m in Sources */,
+				169CC1881E5EA27D00EC75D2 /* Review.m in Sources */,
+				169CC1851E5EA26C00EC75D2 /* ShowRInfo.m in Sources */,
+				161F0FD71E63E1E700D03AC8 /* Profiles.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		169CC16E1E5EA1AB00EC75D2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				169CC16F1E5EA1AB00EC75D2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		169CC1721E5EA1AB00EC75D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		169CC1731E5EA1AB00EC75D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		169CC1751E5EA1AB00EC75D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GpYelp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sena-Funakubo.GpYelp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		169CC1761E5EA1AB00EC75D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GpYelp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sena-Funakubo.GpYelp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		169CC15E1E5EA1AB00EC75D2 /* Build configuration list for PBXProject "GpYelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169CC1721E5EA1AB00EC75D2 /* Debug */,
+				169CC1731E5EA1AB00EC75D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169CC1741E5EA1AB00EC75D2 /* Build configuration list for PBXNativeTarget "GpYelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169CC1751E5EA1AB00EC75D2 /* Debug */,
+				169CC1761E5EA1AB00EC75D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 169CC15B1E5EA1AB00EC75D2 /* Project object */;
+}

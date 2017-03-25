@@ -190,6 +190,8 @@
   self.TotalAmount.text = [@"$" stringByAppendingString:[NSString stringWithFormat:@"%0.2f", (float)[self.delegate thePriceOfProducts]]];
 }
 
+
+
 //-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 //{
 //   if([segue.identifier isEqualToString:@"showlistsegueid"])
