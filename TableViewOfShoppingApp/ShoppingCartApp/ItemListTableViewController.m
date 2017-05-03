@@ -26,10 +26,6 @@
 
 }
 
-//-(void) viewWillAppear:(BOOL)animated
-//{
-//    self.productItemsArray = self.shoppingCart.productsArray;
-//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -94,8 +90,8 @@
     [self.itemListTableView reloadData];
 }
 
-//- (IBAction)CancelToSeeItemList:(UIButton *)sender {
-//[self dismissViewControllerAnimated:YES completion:NULL];
-//}
+- (IBAction)CancelToSeeItemList:(UIButton *)sender {
+[self dismissViewControllerAnimated:YES completion:NULL];
+}
 
 @end
